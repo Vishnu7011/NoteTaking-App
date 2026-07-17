@@ -19,7 +19,7 @@ function Navbar() {
         <div className="space-x-6">
           <Link
             to="/"
-            className={`hover:text-blue-400 transition ${
+            className={`whitespace-nowrap hover:text-blue-400 transition ${
               location.pathname === "/" ? "text-blue-400 font-semibold" : "text-gray-300"
             }`}
           >
