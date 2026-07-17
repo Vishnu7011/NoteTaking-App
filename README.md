@@ -70,4 +70,5 @@ PORT=5000
 
 ## 👨‍💻 Author
 
-*Vishnu Pal*
+*Vishnu*
+
