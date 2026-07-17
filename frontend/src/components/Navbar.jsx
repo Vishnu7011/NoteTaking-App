@@ -9,8 +9,8 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <BookOpen className="w-7 h-7 text-blue-400" />
-          <span className=" text-2xl text-blue-400 tracking-wide">
+          <BookOpen className="w-6 h-6 text-blue-400" />
+          <span className=" text-xl text-blue-400 tracking-wide">
             NoteKeeper
           </span>
         </Link>
@@ -27,7 +27,7 @@ function Navbar() {
           </Link>
           <Link
             to="/create"
-            className={`hover:text-blue-400 transition ${
+            className={`whitespace-nowrap hover:text-blue-400 transition ${
               location.pathname === "/create" ? "text-blue-400 font-semibold" : "text-gray-300"
             }`}
           >
